@@ -1,16 +1,136 @@
-# React + Vite
+# 🚀 React Productivity Dashboard
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern **React-based Productivity Dashboard** built using Vite and React Router.  
+This application allows users to manage daily tasks, track completion status, and view real-time statistics in a clean and responsive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## React Compiler
+- ✅ Add new tasks
+- ✅ Mark tasks as completed
+- ✅ Delete tasks
+- ✅ Real-time statistics (Total / Completed / Pending)
+- ✅ Multi-page navigation using React Router
+- ✅ Responsive dashboard layout
+- ✅ Clean component-based architecture
+- ✅ Modern UI design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠 Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**
+- **Vite**
+- **React Router DOM**
+- **JavaScript (ES6+)**
+- **CSS3**
+
+---
+
+## 📂 Project Structure
+
+react-productivity-dashboard/
+│
+├── src/
+│ ├── components/
+│ │ ├── Sidebar.jsx
+│ │ ├── Header.jsx
+│ │ ├── StatCard.jsx
+│ │ ├── TaskForm.jsx
+│ │ ├── TaskList.jsx
+│ │ └── TaskItem.jsx
+│ │
+│ ├── App.jsx
+│ ├── main.jsx
+│ └── index.css
+│
+├── public/
+├── package.json
+├── vite.config.js
+└── README.md
+
+
+---
+
+## ▶️ Installation & Setup
+
+1. Clone the repository:
+git clone https://github.com/YOUR_USERNAME/react-productivity-dashboard.git
+
+
+2. Navigate to project folder:
+cd react-productivity-dashboard
+
+
+3. Install dependencies:
+npm install
+
+
+4. Run development server:
+npm run dev
+
+
+5. Open in browser:
+http://localhost:5173/
+
+
+---
+
+## 📊 Application Pages
+
+### 🏠 Dashboard
+- View task statistics
+- Add new tasks
+- Toggle task completion
+- Delete tasks
+
+### 📈 Analytics
+- Placeholder page for future analytics features
+
+### ⚙️ Settings
+- Placeholder page for future configuration options
+
+---
+
+## 📱 Responsive Design
+
+The dashboard layout adapts for:
+- Desktop
+- Tablet
+- Mobile devices
+
+---
+
+## 🎯 Learning Objectives Covered
+
+- React Functional Components
+- React Hooks (useState)
+- Component Reusability
+- State Management
+- Routing with React Router
+- Modular Folder Structure
+- Clean UI Design
+- SPA Architecture
+
+---
+
+## 🔮 Future Improvements
+
+- Persistent storage (LocalStorage / Database)
+- Charts for analytics
+- User authentication
+- Dark mode
+- Drag & drop task management
+
+---
+
+## 👨‍💻 Author
+# Rajeev Ranjan Singh
+Developed as part of SkillVally Solutions Project Tasks.
+
+---
+
+## ⭐ If you found this useful
+
+Give this repository a star ⭐
