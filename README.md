@@ -126,8 +126,8 @@ The dashboard layout adapts for:
 ---
 
 ## 👨‍💻 Author
-# Rajeev Ranjan Singh
-Developed as part of SkillVally Solutions Project Tasks.
+**Rajeev Ranjan Singh**  
+Frontend Developer
 
 ---
 
